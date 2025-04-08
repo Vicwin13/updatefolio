@@ -23,13 +23,18 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "svgo": "^3.3.2"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@vercel/analytics": "^1.5.0",
     "bootstrap": "^5.2.2",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.3"
+  },
+  "overrides": {
+    "@parcel/rust": "2.12.0"
   }
 }
